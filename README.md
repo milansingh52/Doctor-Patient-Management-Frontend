@@ -19,7 +19,7 @@
 ## Dependencies
 1. JavaFX Controls: Core controls for building JavaFX applications.
 2. JavaFX Graphics: Graphics-related libraries for JavaFX.
-3. org.json:json: Library for handling JSON data in Java applications.
+3. <a>org.json:json</a>: Library for handling JSON data in Java applications.
 
 # UI Design
 ## Screens:

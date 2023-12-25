@@ -5,6 +5,9 @@
 - This documentation outlines the tools, dependencies, and the project's file structure.
 
 ## Project Output
+Doctor Management
 ![output1](https://github.com/milansingh52/Doctor-Patient-Management-Frontend/assets/111845982/279ed4c3-6068-4eae-aebe-b2032b353101)
+
+Patient Management
 ![output2](https://github.com/milansingh52/Doctor-Patient-Management-Frontend/assets/111845982/6ed6a4cd-430d-4666-91d6-5cfa143f4820)
 

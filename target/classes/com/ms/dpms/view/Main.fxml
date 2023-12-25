@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="mainBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ms.dpms.MainController">
+   <children>
+      <TabPane prefHeight="131.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Home">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="94.0" prefWidth="600.0">
+                     <children>
+                        <HBox layoutY="1.0" prefHeight="100.0" prefWidth="700.0" style="-fx-background-color: black;">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#showContent1" prefHeight="46.0" prefWidth="110.0" style="-fx-background-color: transpare; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Doctor" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets top="25.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#showContent2" prefHeight="46.0" prefWidth="110.0" style="-fx-background-color: transpare; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Patient" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="25.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</VBox>

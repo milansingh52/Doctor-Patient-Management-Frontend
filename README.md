@@ -21,3 +21,23 @@
 2. JavaFX Graphics: Graphics-related libraries for JavaFX.
 3. org.json:json: Library for handling JSON data in Java applications.
 
+# UI Design
+## Screens:
+- Separate screens for patients and doctors including listing doctor, listing patient, adding a new patient, and adding a new doctor.
+- Utilized JavaFX controls like TableView, TextField, and Button.
+- Integrated JavaFX Ribbon Bar for enhanced UI design.
+
+## Controllers
+- Implemented controllers for each screen, ensuring proper separation of concerns.
+
+1. MainController.java: Manage the Main/Home window
+2. DoctorController.java : Manages the screen for listing and adding a new doctors
+3. PatientController.java: Manages the screen for listing and adding a new patients.
+
+
+## Data Binding and Interaction
+- Used JavaFX properties to bind UI elements to data, facilitating dynamic updates.
+- Handled user interactions to trigger API calls to the backend using JavaFX HttpClient for seamless communication with the Spring Boot backend.
+
+## Integration with Backend
+- Integrated JavaFX HttpClient to connect to the Spring Boot backend, implementing methods to make HTTP requests to the backend RESTful APIs.

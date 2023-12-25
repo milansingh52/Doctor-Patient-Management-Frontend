@@ -30,9 +30,9 @@
 ## Controllers
 - Implemented controllers for each screen, ensuring proper separation of concerns.
 
-1. MainController.java: Manage the Main/Home window
-2. DoctorController.java : Manages the screen for listing and adding a new doctors
-3. PatientController.java: Manages the screen for listing and adding a new patients.
+  1. MainController.java: Manage the Main/Home window
+  2. DoctorController.java : Manages the screen for listing and adding a new doctors
+  3. PatientController.java: Manages the screen for listing and adding a new patients.
 
 
 ## Data Binding and Interaction
